@@ -762,7 +762,7 @@ header #st-logo img {
 --------------------------------- */
 
 .about-section {
-    height: 1340px;
+    height: 840px;
     text-align: center;
     background: #0c161e;
 }
@@ -883,10 +883,11 @@ header #st-logo img {
 
 .quote-bottom {
     height: 400px;
-    background: url('../../images/quote-background.jpg') 50% 100% fixed;
+    background: url('../../images/IMAGENS/HOME 3.jpg') 50% 100% fixed;
     text-align: center;
     padding-top: 137px;
     padding-bottom: 137px;
+    background-size: cover;
 }
 
 .quote-bottom .container h3 {
@@ -927,7 +928,7 @@ header #st-logo img {
 .service-headline {
     padding-right: 120px;
     padding-left: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -1037,14 +1038,12 @@ header #st-logo img {
 /* 9. Call To Action Section
 --------------------------------- */
 .call-to-section {
-    height: auto;
-    width: 100%;
-    background: url('../../images/low-poly.jpg') no-repeat;
-    background-size: cover;
+    height: 400px;
+    background: url('../../images/IMAGENS/HOME RODAPÉ.jpg') 50% 100% fixed;
     text-align: center;
-    position: relative;
-    padding-top: 146px;
-    padding-bottom: 146px;
+    padding-top: 137px;
+    padding-bottom: 137px;
+    background-size: cover;
 }
 
 .call-to-layer {
