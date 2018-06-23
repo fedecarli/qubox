@@ -1102,7 +1102,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #E6255D;
   text-decoration: underline;
 }
 a:focus {
@@ -1341,7 +1341,7 @@ mark,
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+  color: #E6255D;
 }
 .text-success {
   color: #3c763d;

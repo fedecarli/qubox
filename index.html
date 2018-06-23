@@ -63,14 +63,13 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <img src="assets/images/IMAGENS/logo.png" alt="Logo">
         </a>
     </div>
-</header>
 
-<div id="st-nav">
-    <a href="#0" class="st-nav-trigger">
+<div id="st-nav" style="position: relative !important; top: 0px !important; z-index: 1001 !important;" class="is-fixed">
+    <!--a href="#0" class="st-nav-trigger">
         Menu<span></span>
-    </a>
+    </a-->
 
-    <nav id="st-main-nav">
+    <nav id="st-main-nav"  class="navbar-collapse collapse">
         <ul>
             <li>
                 <a class="page-scroll hvr-underline-from-center" href="#page-top">Home</a>
@@ -79,10 +78,10 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                 <a class="page-scroll hvr-underline-from-center" href="#our-work">Our Work</a>
             </li-->
             <li>
-                <a class="page-scroll hvr-underline-from-center" href="#about">About Us</a>
+                <a class="page-scroll hvr-underline-from-center" href="#about">About</a>
             </li>
             <li>
-                <a class="page-scroll hvr-underline-from-center" href="#services">Services</a>
+                <a class="page-scroll hvr-underline-from-center" href="#services">Solutions</a>
             </li>
             <!-- <li>
                 <a class="page-scroll hvr-underline-from-center" href="#skills">Our Skills</a>
@@ -93,6 +92,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
         </ul>
     </nav>
 </div>
+</header>
 <!-- /#st-nav -->
 
 <!-- Hero Section
@@ -156,7 +156,7 @@ the data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <div class="col-lg-12">
 
                 <div class="about-text">
-                    <h2 class="wow fadeIn animated"><span>About</span> QuBox®</h2>
+                    <h2 class="wow fadeIn animated"><span>About</span> Us</h2>
                     <p class="wow fadeIn animated">
                         QuBox® is an engineering company that acts predominantly in scientific research and development of systems aimed to the financial market, more precisely in developing financial solutions, analytical, with hardware acceleration, low latency and high yield for high frequency negotiations, based on FPGA hardware. <br> <br>
 We believe that technology must always work towards solving a problem or proposing a better solution to an already solved problem. For this reason, our team is always committed to understanding the trends of the world and to structuring a line of thought through reflections on themes related to the events that announce these trends. This helps us build a solid vision that guides us as to how we should position ourselves to succeed within the context of the world.
@@ -247,27 +247,6 @@ So we invest in this integration, promoting innovation and always stimulating ou
 </section>
 <!-- /.service-section -->
 
-<!-- Call To Action Section
-================================================== -->
-<section id="call-to" class="call-to-section">
-
-    <div class="call-to-layer"></div>
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-12">
-                <h3 class="wow fadeIn animated"><span></span></h3>
-                <p class="wow fadeIn animated"></p>
-            </div>
-            <!-- /.col-md-12 -->
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</section>
-<!-- /.call-to-section -->
 <!-- Contact Section
 ================================================== -->
 <section id="contact" class="contact-section">
@@ -393,11 +372,32 @@ So we invest in this integration, promoting innovation and always stimulating ou
     <!-- /.container -->
 </section>
 <!-- /.contact-section -->
+<!-- Call To Action Section
+================================================== -->
+<section id="call-to" class="call-to-section">
+
+    <div class="call-to-layer"></div>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <h3 class="wow fadeIn animated"><span></span></h3>
+                <p class="wow fadeIn animated"></p>
+            </div>
+            <!-- /.col-md-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.call-to-section -->
 
 <!-- Footer
 ================================================== -->
 <footer>
-    <p>Copyright © 2018 Qubox. All rights reserved. Developed by - <a href="http://www.uppdate.com.br"> Uppdate</a></p>
+    <p>Copyright © 2018 Qubox. All rights reserved. All products denoted with ® or ™ are registered or trademarks of their respective owners. Developed by - <a href="http://www.uppdate.com.br"> Uppdate</a></p>
 </footer>
 
 <!-- Scripts
@@ -417,7 +417,7 @@ So we invest in this integration, promoting innovation and always stimulating ou
 <script src="assets/js/libraries/jquery.counterup.js"></script>
 <!-- Custom Particle Theme JavaScript -->
 <script>
-    var sentences = ["Field Programable Gate Array", "Texto Dois"];
+    var sentences = ["Field Programable Gate Array", "Application Specific Integrated Circuits"];
 </script>
 <script src="assets/js/custom/particle-theme-dark.js"></script>
 </body>

@@ -44,10 +44,15 @@ a:focus {
 /* 2. Navigation
 --------------------------------- */
 header {
-    position: relative;
-    height: 100px;
-    background: transparent;
+    position: fixed;
+    height: 80px !important;
+    background: rgba(0, 0, 0, 0.5);
     text-align: center;
+    top: 0 !important;
+    z-index: 10000 !important;
+    display: block;
+    width: 100vw;
+
 }
 
 header #st-logo {
@@ -360,7 +365,7 @@ header #st-logo img {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: rgba(255, 255, 255, .7);
+    background: #E6255D;
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -434,7 +439,7 @@ header #st-logo img {
     width: 100%;
     text-align: center;
     margin-top: -100px;
-    background: url("../../images/IMAGENS/HOME 1.jpg");
+    background: url("../../images/IMAGENS/HOME 1.jpg") 50% 50%;
     position: relative;
     background-size: cover;
 }
@@ -574,7 +579,7 @@ header #st-logo img {
 .hvr-sweep-to-right:focus,
 .hvr-sweep-to-right:active {
     color: #ffffff;
-    background-color: #40464f;
+    background-color: #ff0000;
 }
 
 .image-section .hvr-sweep-to-right:hover:before,
@@ -922,7 +927,7 @@ header #st-logo img {
     height: 900px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #101c26;
+    background: #f2f3f5;
 }
 
 .service-headline {
@@ -2355,11 +2360,11 @@ footer p a {
     }
 
     #st-nav.is-fixed ul {
-        position: fixed;
+        position: relative;
         width: 90%;
         max-width: 400px;
         bottom: 20px;
-        top: auto;
+        top: 0;
         background: rgba(12, 22, 30, 0.9);
         visibility: hidden;
         -webkit-transform: scale(0);
