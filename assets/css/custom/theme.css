@@ -435,10 +435,10 @@ header #st-logo img {
 }
 
 .hero-section-2 {
-    height: 100%;
+    height: 95vh;
     width: 100%;
     text-align: center;
-    margin-top: -100px;
+    margin-top: -0;
     background: url("../../images/IMAGENS/HOME 1.jpg") 50% 50%;
     position: relative;
     background-size: cover;
@@ -456,7 +456,7 @@ header #st-logo img {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 380px;
+    top: 40vh;
 }
 
 .hero-section-2 .skilltechtypetext {
@@ -495,7 +495,7 @@ header #st-logo img {
 /* 4. Image Section
 --------------------------------- */
 .image-section {
-    height: 700px;
+    height: 95vh;
     width: 100%;
     background: url("../../images/IMAGENS/HOME 2.jpg")50% 50% fixed;
     background-size: cover;
@@ -769,7 +769,7 @@ header #st-logo img {
 .about-section {
     height: 840px;
     text-align: center;
-    background: #0c161e;
+    background: #f2f3f5;
 }
 
 .about-text {
@@ -782,18 +782,18 @@ header #st-logo img {
     font-size: 40px;
     margin-bottom: 20px;
     font-weight: 200;
-    color: #ffffff;
+    color: #0c161e;
 }
 
 .about-text h2 span {
     font-weight: 700;
-    color: #ffffff;
+    color: #0c161e;
 }
 
 .about-text p {
     line-height: 26px;
     font-size: 16px;
-    color: #9EC6D8;
+    color: #0c161ea1;
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -887,7 +887,7 @@ header #st-logo img {
 }
 
 .quote-bottom {
-    height: 400px;
+    height: 95vh;
     background: url('../../images/IMAGENS/HOME 3.jpg') 50% 100% fixed;
     text-align: center;
     padding-top: 137px;
@@ -924,7 +924,7 @@ header #st-logo img {
 /* 8. Services Section
 --------------------------------- */
 .services-section {
-    height: 900px;
+    height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
     background: #f2f3f5;
@@ -933,7 +933,10 @@ header #st-logo img {
 .service-headline {
     padding-right: 120px;
     padding-left: 120px;
-    margin-bottom: 10px;
+    /* margin-bottom: 0px;
+    margin-top: 30px; */
+    margin-bottom: -40px;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -971,7 +974,7 @@ header #st-logo img {
 .service-content .left,
 .service-content .right {
     overflow: hidden;
-    height: 530px;
+    height: 700px;
     padding-top: 70px;
 }
 
@@ -1043,7 +1046,7 @@ header #st-logo img {
 /* 9. Call To Action Section
 --------------------------------- */
 .call-to-section {
-    height: 400px;
+    height: 95vh;
     background: url('../../images/IMAGENS/HOME RODAPÉ.jpg') 50% 100% fixed;
     text-align: center;
     padding-top: 137px;
