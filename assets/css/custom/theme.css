@@ -864,6 +864,7 @@ header #st-logo img {
 --------------------------------- */
 .quote-section {
     height: 530px;
+    height: 95vh;
     z-index: 1001;
     position: relative;
 }
@@ -926,7 +927,8 @@ header #st-logo img {
 --------------------------------- */
 .services-section {
     height: auto;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    padding-top: 0px;
     padding-bottom: 10px;
     background: #f2f3f5;
 }
@@ -964,6 +966,7 @@ header #st-logo img {
 .service-content {
     text-align: center;
     overflow: hidden;
+    height:850px;
 }
 
 .service-content .left,
@@ -983,6 +986,8 @@ header #st-logo img {
 .service-2 {
     height: 100px;
     display: table;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .service .icons,
