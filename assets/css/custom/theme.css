@@ -2499,6 +2499,7 @@ footer p a {
 @media only screen and (max-width: 767px) {
     header #st-logo img {
         width: 200px;
+        top: 20px; //novo
     }
 
     .hero-section-2 .headlines-wrapper {
@@ -2536,7 +2537,8 @@ footer p a {
     }
 
     .about-section {
-        height: 610px;
+        /* height: 610px; */
+        height: 1040px;
     }
 
     .about-images {
