@@ -774,7 +774,7 @@ header #st-logo img {
 }
 
 .about-text {
-    padding-top: 100px;
+    padding-top: 50px;
     height: 440px;
 }
 
@@ -927,7 +927,7 @@ header #st-logo img {
 .services-section {
     height: auto;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     background: #f2f3f5;
 }
 
@@ -994,13 +994,13 @@ header #st-logo img {
 
 .service .text {
     width: 250px;
-    text-align: right;
+    text-align: center;
     margin-right: 30px;
 }
 
 .service-2 .text {
     width: 250px;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
 }
 
@@ -1784,10 +1784,18 @@ footer p a {
 /* 14. Service Item
 --------------------------------- */
 .service-item {
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     margin-top: -100px;
-    background: url('../../images/IMAGENS/PÁGINA FINANCIAL FOTO.jpg') fixed;
+    background: url('../../images/IMAGENS/FINANCIAL SOLUTIONS pg.jpg') fixed;
+    background-size: cover;
+    position: relative;
+}
+.service-item2 {
+    height: 70vh;
+    width: 100%;
+    margin-top: -100px;
+    background: url('../../images/IMAGENS/PÁGINA BLOCKCHAIN FOTO 1.jpg') fixed;
     background-size: cover;
     position: relative;
 }
@@ -1808,6 +1816,13 @@ footer p a {
     padding-top: 20%;
 }
 
+.service-item2 .row .typed-headline {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+
 .service-item .row .typed-headline .skilltechtypetext {
     padding: 0;
     font-size: 78px;
@@ -1815,7 +1830,18 @@ footer p a {
     z-index: 20;
 }
 
+.service-item2 .row .typed-headline .skilltechtypetext {
+    padding: 0;
+    font-size: 78px;
+    color: #FFFFFF;
+    z-index: 20;
+}
+
 .service-item .typed-headline .typed-cursor {
+    font-size: 70px;
+}
+
+.service-item2 .typed-headline .typed-cursor {
     font-size: 70px;
 }
 
@@ -2631,7 +2657,7 @@ footer p a {
 
 @media only screen and (max-width: 714px) {
     .services-section .left .text {
-        text-align: left;
+        text-align: center;
     }
 }
 
