@@ -16,7 +16,8 @@
 footer p a:hover,
 .portfolio-icons li a i,
 .service-icons li a i {
-    color: #E6255D;
+    /* color: #E6255D; */
+    color: #0c161e;
 }
 
 .social-icons li a:hover,
