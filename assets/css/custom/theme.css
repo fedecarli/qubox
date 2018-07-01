@@ -1329,7 +1329,7 @@ header #st-logo img {
     height: 480px;
     width: 45%;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(255, 255, 255, 0.07);
     overflow: hidden;
 }
 
