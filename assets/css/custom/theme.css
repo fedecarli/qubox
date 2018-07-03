@@ -442,6 +442,7 @@ header #st-logo img {
     background: url("../../images/IMAGENS/HOME 1.jpg") 50% 50% fixed;
     position: relative;
     background-size: cover;
+    object-fit: cover;
     z-index: 99;
 }
 
@@ -500,6 +501,7 @@ header #st-logo img {
     width: 100%;
     background: url("../../images/IMAGENS/HOME 2.jpg")50% 50% fixed;
     background-size: cover;
+    object-fit: cover;
     padding-top: 260px;
     padding-bottom: 260px;
 }
@@ -895,6 +897,7 @@ header #st-logo img {
     padding-top: 137px;
     padding-bottom: 137px;
     background-size: cover;
+    object-fit: cover;
 }
 
 .quote-bottom .container h3 {
@@ -1064,6 +1067,7 @@ header #st-logo img {
     padding-top: 137px;
     padding-bottom: 137px;
     background-size: cover;
+    object-fit: cover;
 }
 
 .call-to-layer {
@@ -1521,6 +1525,7 @@ footer p a:hover {
     margin-top: -100px;
     background: url('../../images/portfolio-item.jpg') 100% 100% fixed;
     background-size: cover;
+    object-fit: cover;
     position: relative;
 }
 
@@ -1815,6 +1820,7 @@ footer p a:hover {
     margin-top: -100px;
     background: url('../../images/IMAGENS/FINANCIAL SOLUTIONS pg.jpg') fixed 50% 0;
     background-size: cover;
+    object-fit: cover;
     position: relative;
 }
 .service-item2 {
@@ -1823,6 +1829,7 @@ footer p a:hover {
     margin-top: -100px;
     background: url('../../images/IMAGENS/PÁGINA BLOCKCHAIN FOTO 1.jpg') fixed 50% 0;
     background-size: cover;
+    object-fit: cover;
     position: relative;
 }
 
@@ -2082,6 +2089,7 @@ footer p a:hover {
     .image-section {
         height: 470px;
         background-size: cover;
+        object-fit: cover;
         padding-top: 120px;
         padding-bottom: 180px;
     }
