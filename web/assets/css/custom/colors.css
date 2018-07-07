@@ -1,6 +1,9 @@
 /* Main Colors
 --------------------------------- */
 
+.cor-escura{
+    color: #0c161e !important;
+}
 /* primary color */
 .hero-section-2 .second-headline span,
 .hero-section-video-dark .second-headline span,
@@ -18,6 +21,13 @@ footer p a:hover,
 .service-icons li a i {
     /* color: #E6255D; */
     color: #0c161e;
+}
+
+.service .text a:hover,
+.service-2 .text a:hover,
+footer p a:hover{
+    color: #E6255D !important;
+    /* color: #0c161e; */
 }
 
 .social-icons li a:hover,
