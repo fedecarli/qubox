@@ -972,7 +972,8 @@ header #st-logo img {
     /* overflow: hidden; */
     /* height:850px; */
     height: auto !important;
-    overflow: -webkit-paged-y;
+    /* overflow: -webkit-paged-y; */
+    overflow: visible;
 }
 
 .service-content .left,
@@ -2420,6 +2421,7 @@ footer p a:hover {
         -webkit-transition: all 0s;
         -moz-transition: all 0s;
         transition: all 0s;
+        right: 120px; /* NOVO */
     }
 
     #st-nav li {
